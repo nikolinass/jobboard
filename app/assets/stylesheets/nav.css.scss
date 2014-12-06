@@ -1,0 +1,35 @@
+header {
+  background: #06a9d6;
+  padding: 10px;
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+  }
+}
+
+.left-nav {
+  float: left;
+}
+
+.right-nav {
+  float: right;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #333;
+  color: #fff;
+}
+
+.navbar-text {
+  float: right;
+  text-align: right;
+  padding: 10px;
+}

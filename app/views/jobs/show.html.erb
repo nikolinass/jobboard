@@ -1,0 +1,12 @@
+<h1 class="title"><%= @job.title %></h1>
+
+	<div class="container-main">
+	  <h3>Company: <%= @job.company %></h3>
+	  <p><%= @job.description %></p>
+	  <div class="optionsContainer">
+	  	<button class="options"><%= link_to "Edit", edit_job_path(@job)%></button>
+	  	 <button class="options"><%= link_to "Delete", @job, method: :delete %></button>
+	  	 <button class="options"><%= link_to "Back", :back %></button>
+	  </div>
+	 
+	</div>

@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+}
+
+.content {
+  margin: 10px auto;
+  width: 70%;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.title {
+	color: #333;
+	font-family: "Helvetica";
+	padding: 20px;
+	background: white;
+	margin: 0;
+}
+.uipage {
+	min-height: 600px;
+	padding: 20px;
+}
+.container {
+	width: 85%;
+	height: auto;
+	border: 1px solid #cecece;
+	border-bottom: 3px solid #cecece;
+	padding: 0 20px 20px;
+	margin: 20px auto;
+}
+.container-main {
+	padding: 20px;
+}
+.optionsContainer {
+	width: 100%;
+	.options {
+		background: #f78638;
+		padding: 10px 20px;
+		color: #fff;
+		border: 1px solid #f78638;
+		margin: 20px 20px 0 0;
+		a {
+			color: #fff;
+			text-decoration: none;
+			&:hover {
+				color: #06a9d6;
+			}
+		}
+	}
+}
+
+.field, 
+.form-field {
+	margin: 20px;
+	label {
+		color: #333;
+
+	}
+
+	input {
+		padding: 5px;
+		border: 1px solid #333;
+		border-bottom: 2px solid #333;
+	}
+}
+
+.actions,
+.submit {
+	input {
+		padding: 10px 20px;
+		background: #f78638;
+		border: 1px solid #f78638;
+		color: #fff;
+		margin: 20px;
+	}
+	
+}
+
+.error {
+	color: red;
+	margin: 20px;
+}
